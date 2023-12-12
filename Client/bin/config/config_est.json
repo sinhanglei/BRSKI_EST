@@ -1,9 +1,9 @@
 {
-    "server_cert": "../est_trusted/server.crt",
+    "server_cert": "Client/bin/est_trusted/server.crt",
     "server_hostname": "localhost:4001",
 
-    "client_cert": "../obtained_identity/client.crt",
-    "client_key": "../obtained_identity/client.key",
+    "client_cert": "Client/bin/obtained_identity/client.crt",
+    "client_key": "Client/bin/obtained_identity/client.key",
     "client_key_pw": "123",
     "client_hostname": "localhost",
     "client_altname": ["localhost","my-est-client.com","another-est-client.com", "more-est-client.com"]

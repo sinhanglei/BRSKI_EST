@@ -9,7 +9,7 @@ import requests
 import requests.adapters
 
 # Access configuration file
-with open ("../config/config_est.json", "r") as config:
+with open ("Client/bin/config/config_est.json", "r") as config:
     # Load configuration as dictionary
     C = json.load(config)
 

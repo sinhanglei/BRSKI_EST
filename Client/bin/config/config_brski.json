@@ -1,16 +1,16 @@
 {
 
-    "idevid": "../own_identity/idevid.crt",
-    "idevid_key": "../own_identity/idevid.key",
+    "idevid": "Client/bin/own_identity/idevid.crt",
+    "idevid_key": "Client/bin/own_identity/idevid.key",
     "idevid_key_pw": "123",
 
-    "registrar_cert": "../brski_trusted/registrar.crt",
+    "registrar_cert": "Client/bin/brski_trusted/registrar.crt",
     "registrar_hostname": "localhost:4001",
 
-    "masa_cert": "../brski_trusted/masa.crt",
+    "masa_cert": "Client/bin/brski_trusted/masa.crt",
 
-    "pledge_cert": "../obtained_identity/pledge.crt",
-    "pledge_key": "../obtained_identity/pledge.key",
+    "pledge_cert": "Client/bin/obtained_identity/pledge.crt",
+    "pledge_key": "Client/bin/obtained_identity/pledge.key",
     "pledge_key_pw": "123",
     "pledge_hostname": "localhost",
     "pledge_altname": ["localhost", "my-pledge.com","another-pledge.com", "more-pledge.com"],

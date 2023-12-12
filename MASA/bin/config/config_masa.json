@@ -1,17 +1,17 @@
 {
-  "masa_cert": "../own_identity/masa.crt",
-  "masa_key": "../own_identity/masa.key",
+  "masa_cert": "MASA/bin/own_identity/masa.crt",
+  "masa_key": "MASA/bin/own_identity/masa.key",
   "masa_key_pw": "123",
   "masa_hostname": "localhost",
   "masa_port": 4002,
   "masa_altname": ["localhost", "my-other-masa.com"],
 
-  "idevid_cert": "../enrolled/idevid.crt",
-  "idevid_key": "../enrolled/idevid.key",
+  "idevid_cert": "MASA/bin/enrolled/idevid.crt",
+  "idevid_key": "MASA/bin/enrolled/idevid.key",
   "idevid_key_pw": "123",
   "idevid_hostname": "my-idevid.com",
   "idevid_altname": ["localhost","my-other-idevid.com", "my-secret-idevid.com"],
 
 
-  "registrar_cert": "../trusted/registrar.crt"
+  "registrar_cert": "MASA/bin/trusted/registrar.crt"
 }

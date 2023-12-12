@@ -7,7 +7,7 @@ from cryptography.hazmat.primitives import serialization
 from datetime import datetime, timedelta
 from cryptography import x509
 
-with open("../config/config.json", "r") as config:
+with open("EST/bin/config/config.json", "r") as config:
     # Load configuration as dictionary
     CONFIG = json.load(config)
     EST_CERT = CONFIG["est_cert"]

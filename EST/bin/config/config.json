@@ -1,11 +1,11 @@
 {
-  "est_cert": "../identity/ca.crt",
-  "est_key": "../identity/ca.key",
+  "est_cert": "EST/bin/identity/ca.crt",
+  "est_key": "EST/bin/identity/ca.key",
   "est_key_pw": "123",
 
   "est_hostname": "localhost",
   "est_port": 4003,
   "est_altname": ["localhost", "my-other-est-server.com"],
 
-  "client_cert": "../enrolled/client.crt"
+  "client_cert": "EST/bin/enrolled/client.crt"
 }

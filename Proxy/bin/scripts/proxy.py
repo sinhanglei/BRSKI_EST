@@ -15,7 +15,7 @@ global PRIVATE_KEY_PW
 
 global SERVER_CERT
 
-with open("../config/config_proxy.json", "r") as config:
+with open("Proxy/bin/config/config_proxy.json", "r") as config:
     # Load config_brski.json as dictionary
     CONFIG = json.load(config)
     MASA_CERT = CONFIG["masa_cert"]

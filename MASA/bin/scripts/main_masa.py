@@ -5,7 +5,7 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 import ssl
 
 
-with open("../config/config_masa.json", "rb") as f:
+with open("MASA/bin/config/config_masa.json", "rb") as f:
     C = json.load(f)
 
     MASA_CERT = C["masa_cert"]

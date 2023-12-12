@@ -1,0 +1,16 @@
+{
+  "client_cert": "../enrolled/client.crt",
+
+  "masa_cert": "../trusted/masa.crt",
+
+  "proxy_cert": "../own_identity/proxy.crt",
+  "proxy_key": "../own_identity/proxy.key",
+  "proxy_key_pw": "123",
+  "proxy_hostname": "localhost",
+  "proxy_port": 4001,
+  "proxy_altname": ["localhost", "my-secret-proxy.com"],
+
+  "est_hostname": "localhost",
+  "est_port": 4003,
+  "est_cert": "../trusted/est.crt"
+}

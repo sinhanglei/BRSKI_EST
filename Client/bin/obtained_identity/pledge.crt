@@ -1,19 +1,14 @@
------BEGIN CERTIFICATE-----
-MIIDAjCCAeqgAwIBAgIUTg6o7OgqdX2woUWMYRCtN1b9aucwDQYJKoZIhvcNAQEL
-BQAwFDESMBAGA1UEAwwJbG9jYWxob3N0MB4XDTIyMTAzMDEzMzIzM1oXDTIzMTAz
-MDEzMzIzM1owFDESMBAGA1UEAwwJbG9jYWxob3N0MIIBIjANBgkqhkiG9w0BAQEF
-AAOCAQ8AMIIBCgKCAQEA06Abzh0gZJGGYMOVTBqpTvINRWZSV7DIaUX+tvEuyjBu
-GfI7RII0eTUPfb6JKBMFDFGjcKtbbPVxsVuNIXjbow1qzvNfMBVx6sHqvOYTWg7L
-OkeZLZs7u3T1Twha3xjE30Jx79sH300/HOajyeYUfvVTDln3QenGpjBx/MEWDbWq
-nNje3wGf5QqzdKYUtezfUoAA3z5PibsgNA5QWjfzEtzQzTxFeTYhZxa4oSnciHQQ
-M0dsWDz/zeGcao27ErCPUfUc8DFr+xrAxYs9vV+YHSCcKuRULzb5AgQlcTXPDJcs
-heRlSpnjCgtVgWF1EcFYr+U/ql3jIhc3Oel2yL+dEwIDAQABo0wwSjBIBgNVHREE
-QTA/gglsb2NhbGhvc3SCDW15LXBsZWRnZS5jb22CEmFub3RoZXItcGxlZGdlLmNv
-bYIPbW9yZS1wbGVkZ2UuY29tMA0GCSqGSIb3DQEBCwUAA4IBAQA/2m0+ug20ArAI
-BWAqN9cnftfxm8CY4IQNxVZWQlNGESIRogDoh/0QdkYuIZdy4yGqjbWW4VpeVs1f
-mNu5pY85Vg/VKIZ8SxJ/RXUBeDItt+NU4jxAxBs+y4uyU2/G0enhol8IwxkOpKZr
-MUvTPAlGnzpP5PUVzuTOjKnu8Rp1DxxxN/6rz9hPNxVR53ml6+nANu5S8TQPQ0TY
-Qd3wRRkjR6lxvKAvsgqnQUYAXRWV18jQ57uChHsMy4c4/OnHPPA1hRFBjzsJfI/U
-AXAdMt+puqiAZmbsi7+oC+WX8IuexqnHLuSYQoOzHHsJvRsGBwkvSDkqdxlHoZoS
-iTRyq2wP
------END CERTIFICATE-----
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <title>Error response</title>
+    </head>
+    <body>
+        <h1>Error response</h1>
+        <p>Error code: 404</p>
+        <p>Message: error trying to proxy.</p>
+        <p>Error code explanation: 404 - Nothing matches the given URI.</p>
+    </body>
+</html>

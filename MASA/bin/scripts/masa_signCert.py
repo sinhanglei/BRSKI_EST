@@ -8,7 +8,7 @@ from cryptography.hazmat.primitives.asymmetric import rsa
 from cryptography.x509 import NameOID, UnrecognizedExtension
 import json
 
-with open("../config/config_masa.json", "r") as f:
+with open("MASA/bin/config/config_masa.json", "r") as f:
     C = json.load(f)
 
     IDEVID_CERT = C["idevid_cert"]
@@ -198,11 +198,11 @@ if __name__ == "__main__":
         certfile.write(cert.public_bytes(serialization.Encoding.PEM))
 
     # TODO Distribute MASA's Cert to Pledge (FOR TESTING PURPOSE)
-    with open("../../../Client/bin/brski_trusted/masa.crt", "wb") as certfile:
+    with open("Client/bin/brski_trusted/masa.crt", "wb") as certfile:
         certfile.write(cert.public_bytes(serialization.Encoding.PEM))
 
     # TODO Distribute MASA's Cert to Proxy (FOR TESTING PURPOSE)
-    with open("../../../Proxy/bin/trusted/masa.crt", "wb") as certfile:
+    with open("Proxy/bin/trusted/masa.crt", "wb") as certfile:
         certfile.write(cert.public_bytes(serialization.Encoding.PEM))
 
     # Generate new Private Key for IDevID
@@ -231,10 +231,10 @@ if __name__ == "__main__":
         keyfile.write(idevid.public_bytes(serialization.Encoding.PEM))
 
     # TODO Distribute IDevID to Pledge (FOR TESTING PURPOSE)
-    with open("../../../Client/bin/own_identity/idevid.crt", "wb") as keyfile:
+    with open("Client/bin/own_identity/idevid.crt", "wb") as keyfile:
         keyfile.write(idevid.public_bytes(serialization.Encoding.PEM))
 
     # TODO Distribute IDevID to Pledge (FOR TESTING PURPOSE)
-    with open("../../../Client/bin/own_identity/idevid.key", "wb") as keyfile:
-        with open("../enrolled/idevid.key") as f:
+    with open("Client/bin/own_identity/idevid.key", "wb") as keyfile:
+        with open("MASA/bin/enrolled/idevid.key") as f:
             keyfile.write(f.read().encode())
